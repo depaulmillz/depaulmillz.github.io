@@ -14,6 +14,8 @@ LSlab is a lock-based GPU hash map. It was designed in "KVCG: A Heterogeneous Ke
 
 The _Group Allocator_ for Unified Memory management was created for "KVCG: A Heterogeneous Key-Value Store for Skewed Workloads" by dePaul Miller, Jacob Nelson, Ahmed Hassan, and Roberto Palmieri. It allows for better management of Unified Memory to prevent thrashing over pages between the GPU and CPU when dealing with CPU-GPU cooperative code.
 
+[__Documentation__](https://depaulmillz.github.io/UnifiedMemoryGroupAllocation/docs/index.html)
+
 [__Code__](https://github.com/depaulmillz/UnifiedMemoryGroupAllocation)
 
 ### KVCG
