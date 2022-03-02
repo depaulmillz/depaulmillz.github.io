@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## dePaul Miller
 
-You can use the [editor on GitHub](https://github.com/depaulmillz/depaulmillz.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+This is my Github page containing links to documentation on my open source code.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### LSlab
 
-### Markdown
+LSlab is a lock-based GPU hash map. It was designed in "KVCG: A Heterogeneous Key-Value Store for Skewed Workloads" by dePaul Miller, Jacob Nelson, Ahmed Hassan, and Roberto Palmieri.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[__Documentation__](https://depaulmillz.github.io/lslab/docs/index.html)
 
-```markdown
-Syntax highlighted code block
+[__Code__](https://github.com/depaulmillz/lslab)
 
-# Header 1
-## Header 2
-### Header 3
+### Group Allocator For Unified Memory Management
 
-- Bulleted
-- List
+The _Group Allocator_ for Unified Memory management was created for "KVCG: A Heterogeneous Key-Value Store for Skewed Workloads" by dePaul Miller, Jacob Nelson, Ahmed Hassan, and Roberto Palmieri. It allows for better management of Unified Memory to prevent thrashing over pages between the GPU and CPU when dealing with CPU-GPU cooperative code.
 
-1. Numbered
-2. List
+[__Code__](https://github.com/depaulmillz/UnifiedMemoryGroupAllocation)
 
-**Bold** and _Italic_ and `Code` text
+### KVCG
 
-[Link](url) and ![Image](src)
-```
+KVCG is a key value store published in "KVCG: A Heterogeneous Key-Value Store for Skewed Workloads" by dePaul Miller, Jacob Nelson, Ahmed Hassan, and Roberto Palmieri.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/depaulmillz/depaulmillz.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[__Code__](https://github.com/sss-lehigh/KVCG)
